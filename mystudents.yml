@@ -1,0 +1,20 @@
+--- 
+- mystudents:
+  - name: anil 
+    phno: 87997979797
+    addr: 
+      doorno: 78
+      pincode: 543333
+
+  - name: venil
+    phno: 9889890000
+    addr: 
+      doorno: 78
+      pincode: 543333
+  -  name: sunil 
+     phno: 9098877877
+     addr:  
+       doorno: 78
+       pincode: 543333
+      
+  
