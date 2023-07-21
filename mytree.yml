@@ -1,0 +1,10 @@
+--- 
+- name: i want to install tree 
+  hosts: all 
+  become: true 
+  tasks: 
+  - name: i want to install tree on ansible node
+    apt:
+      name: tree 
+      state: present 
+      
