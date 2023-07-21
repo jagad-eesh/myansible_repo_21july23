@@ -5,5 +5,5 @@
   - name: install webserver on ansible node
     apt:
       name: apache2
-      state: absent 
+      state: present  
  
