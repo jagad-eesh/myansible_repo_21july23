@@ -13,7 +13,7 @@
       state: started
     when: ansible_os_family ==  "Debian"
   - name: i want to install webserver on ansible node
-    yum: 
+    dnf: 
       name: httpd
       state: installed
     when: ansible_os_family == "RedHat"
