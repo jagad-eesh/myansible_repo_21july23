@@ -2,6 +2,7 @@
 - name: i want to install wget on nodes
   hosts: all 
   become: true 
+  gather_facts: no
   tasks: 
   - name: i want to install wget
     apt:
