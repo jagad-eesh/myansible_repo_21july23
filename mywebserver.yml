@@ -11,4 +11,4 @@
     service:
       name: apache2
       state: stopped
-    swhen: ansible_os_family ==  "Debian"
+    when: ansible_os_family ==  "Debian"
