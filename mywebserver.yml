@@ -5,8 +5,10 @@
   - name: install webserver on ansible node
     apt:
       name: apache2
-      state: present  
+      state: present 
+    when: ansible_os_family ==  "Debian"   
   - name: i wnat to start webserver
     service:
       name: apache2
       state: stopped
+    swhen: ansible_os_family ==  "Debian"
