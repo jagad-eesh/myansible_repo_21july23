@@ -11,4 +11,4 @@
     dnf: 
       name: "{{myjavaonredhat}}"
       state: present
-  
+    when: ansible_os _family == "RedHat"
