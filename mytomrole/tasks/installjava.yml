@@ -10,8 +10,8 @@
     update_cache: yes
 - name: install java
   apt: 
-  name: default-jdk
-  state: present 
+   name: default-jdk
+   state: present 
      
           
      
